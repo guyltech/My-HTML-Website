@@ -230,19 +230,3 @@ hr {
     text-align: center;
 	margin: 20px;
 }
-
-/*************************/
-img{
-    justify-content: center;
-    margin: auto;
-    
-    }
-    #queen {
-        display: inline-block;
-    }
-
-    .hondagallery1 img{
-        display: inline-block;
-        width: 400px;
-		height: 250px; 
-    }
