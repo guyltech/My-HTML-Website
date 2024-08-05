@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Welcome to my Website. I'm Guy Levy a QA Junior🐞 from Tel Aviv.">
+	<meta name="author" content="Guy Levy">
+    <title>Guy Levy | My HTML Website</title>
+	<link rel="icon" type="image/x-icon" href="images/faviconmewhite.png">
+    <link rel="stylesheet" href="styleupdated.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Font Awesome 4 Icons --!>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Boxicons.com --!>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+		<a href="#home" class="active">Home</a>
+		<a href="#aboutme">About</a>
+		<a href="#experience">Experience</a>
+		<a href="#whyqa">WhyQA</a>
+		<a href="#projects">Projects</a>
+		<a href="#keepintouch">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+
+	<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon --!>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+	
+	<div>
+	
+		<h1>Hi, I'm Guy Levy</h1>
+		<h1 class="smaller">QA Junior<br>"Bug Hunter" <img class="bug-img" src="images/ladybug.png"></h1>
+		<h2>Welcome To My Website</h2>			
+	
+		<img class="main-img" src="images/mainimg.png" alt="my picture">
+		
+		<hr>
+		
+		<h3 id="aboutme">About Me</h3>
+		
+		<!--<p><img class="simple-img" src="images/meandjustin.jpg" alt="meandjustin"></p>--!>
+		
+		<div class="gallery">
+			<img src="images/meandjustin.jpg" alt="meandjustin">
+			<img src="images/elal.jpg" alt="elal">
+			<img src="images/homegym.jpg" alt="atthegym">
+        </div>
+		
+		<p><i class="fa fa-pencil-square-o" style="font-size:24px;color:#3cf"></i>  I'm 43 years old from Tel Aviv. I have a beautiful Doberman, his name is Justin.</p>
+		<p><i class="fa fa-pencil-square-o" style="font-size:24px;color:#3cf"></i>  The gym is my happy place! I love getting a workout in every single day. Taking care of my health is a core value for me. I strive to eat well, exercise regularly, and get enough sleep.</p>
+		<p><i class="fa fa-pencil-square-o" style="font-size:24px;color:#3cf"></i>&nbsp;&nbsp;I'm a big believer in self-directed learning, and online tutorials have become my go-to resource for acquiring new tech skills. They allow me to explore at my own pace and delve deep into specific areas that pique my interest. My two favorite e-learning platforms are <a class="onlinelearninglinks" style="color:gray" href="https://learn.microsoft.com/en-us/" target="_blank" title="Go to learn.microsoft.com">Microsoft Learn</a> and <a class="onlinelearninglinks" style="color:gray" href="https://www.udemy.com/" target="_blank" title="Go to Udemy">Udemy</a>.</p>
+		<p><i class="fa fa-pencil-square-o" style="font-size:24px;color:#3cf"></i>  As a former Flight Attendant, I had the amazing opportunity to travel the world and witness some of the most magnificent sights. Out of all the places I've traveled to, Bangkok, New York, and Madrid really stood out to me.</p>
+		
+			<a href="#keepintouch" class="btn">Contact Me</a><br>
+
+		<hr>	
+		
+		<h4 id="experience">Professional Experience</h4>	
+
+		<div class="gallery">
+			<img src="images/mediagroup1.jpg" alt="mediagroup1">
+			<img src="images/mediagroup2.jpg" alt="mediagroup2">
+			<img src="images/mediagroup3.jpg" alt="mediagroup3">
+		</div>
+		
+		<p><i class="fa fa-check-square-o" style="font-size:24px;color:#ffe83f"></i>  With over 5 years dedicated to <b>SEO</b> (Search Engine Optimization)</B>, I've honed my skills across multiple open-source <b>CMS</b> (Content Management Systems) platforms. I thrive on the challenge of optimizing websites and leveraging technology to drive organic growth.</p>
+		<p><i class="fa fa-check-square-o" style="font-size:24px;color:#ffe83f"></i>  My SEO background has equipped me with a strong attention to detail, enabling me to identify even the smallest defects that impact user experience and search engine visibility.</p> 
+		<p><i class="fa fa-check-square-o" style="font-size:24px;color:#ffe83f"></i>  This experience has honed my problem-solving skills, allowing me to effectively identify and address issues that hinder website performance and user satisfaction.</p>
+		<p><i class="fa fa-check-square-o" style="font-size:24px;color:#ffe83f"></i>  I'm adept at identifying and troubleshooting website issues, which translates well to the world of QA testing. I'm confident that my ability to analyze <b>UX</b> (User Experience) would be valuable in ensuring software functionality meets user needs.</p>
+		
+		<hr>
+		
+		<h4 id="whyqa">Why QA</h4>		
+		
+		<div class="gallery">
+			<img src="images/qa.png" alt="QA">
+			<img src="images/ladybug.png" alt="bug">
+			<img src="images/pcbug.png" alt="pcbug">
+		</div>
+				
+		<p><i class="fa fa-file-code-o" style="font-size:22px;color:#9fff5b"></i>&nbsp;&nbsp;I've always been passionate about coding. I studied <b>Computer Science</b> in high school and continued my education with a <b>.NET programming - ASP.NET</b> course.</p>
+		<p><i class="fa fa-file-code-o" style="font-size:22px;color:#9fff5b"></i>&nbsp;&nbsp;But my true passion lies in QA and debugging code. There's something incredibly satisfying about untangling complex issues and ensuring everything functions smoothly. Debugging code is like solving a puzzle for me. I love the intellectual challenge of working through problems and finding elegant fixes.</p>
+		<p><i class="fa fa-file-code-o" style="font-size:22px;color:#9fff5b"></i>&nbsp;&nbsp;I'm a highly organized and detail-oriented individual with a strong emphasis on thoroughness in my work. I enjoy the efficiency of working according to checklists and established procedures. As a committed and hardworking professional, I am confident in my ability to be a valuable asset to your team. I look forward to hearing from you.</p>
+		
+		<a href="#keepintouch" class="btn">Add me to your team</a><br>
+		
+		<hr>
+		
+		<h5 id="projects">Projects</h5>		
+		
+		<P style="margin-top: 0px">Under Construction...</P>
+		
+		<div class="gallery">
+			<img src="images/project1.png" alt="QA Project1" style="box-shadow: 2px 2px 10px #f06">
+			<img src="images/project2.png" alt="QA Project2" style="box-shadow: 2px 2px 10px #f06">
+			<!--<img src="images/project3.png" alt="QA Project3" style="box-shadow: 2px 2px 10px #f06">-->
+			<a href="https://guyltech.github.io/My-Travel-Blog/" target="_blank"><img src="images/mytravelblog.png" alt="My Travel Blog" style="box-shadow: 2px 2px 10px #f06"></a>
+		</div>
+		
+		<hr><br><br><br>
+		
+		<img class="main-img" src="images/contactme.png" alt="contactme">
+		
+		<p id="keepintouch"><u class="onlinelearninglinks">Keep in touch</u>:</p>
+		<div class="home-sci">
+			<a href="mailto:guylevi811@gmail.com" target="_blank"><i class='bx bx-mail-send'></i></a>
+			<a href="https://www.linkedin.com/in/guy-levy-17799143/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+		</div>
+		
+		<div class="home-sci">
+		<br>
+		<a href="https://www.flaticon.com/free-icons/insect" target="_blank" title="insect icons" style="font-size:10px;">Insect icons created by Freepik - Flaticon</a>
+		<br><hr>
+		© Guy Levy 2024 - All rights reserved.
+		</div>
+		
+		<button onclick="topFunction()" id="mybtn" title="Go to top">Top</button>
+
+		<script>		
+			// Get the button:
+			let mybutton = document.getElementById("mybtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			  } else {
+				mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0; // For Safari
+			  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>		
+		
+	</div>
+		
+</body>
+
+</html>
