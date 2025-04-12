@@ -17,11 +17,10 @@ You can view the live website deployed via GitHub Pages here:
 ## Features
 * Built using fundamental HTML elements.
 * Includes basic text formatting, links, and potentially images.
-* (Add any other specific features or sections your website has)
 
 ## Technologies Used
 * HTML5
-* CSS3 (if used for styling)
+* CSS3
 
 ## How to View Locally
 1.  **Clone the repository:**
@@ -34,7 +33,7 @@ You can view the live website deployed via GitHub Pages here:
     cd My-HTML-Website
     ```
 
-3.  **Open the `index.html` file** (or your main HTML file) in your preferred web browser.
+3.  **Open the `index.html` file** in your preferred web browser.
 
 ## Author
 * **GitHub:** [guyltech](https://github.com/guyltech)
